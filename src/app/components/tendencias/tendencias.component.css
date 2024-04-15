@@ -7,6 +7,10 @@ img.w-6 {
     color: white;
   }
 
+  h4{
+    color: #5E5E5E
+  }
+
   .card {
     padding: 20px;
     border-radius: 8px;
@@ -20,6 +24,7 @@ img.w-6 {
 
   .price{
     font-size: 20px;
+    color:#000000B8
   }
 
   .container {
@@ -31,20 +36,6 @@ img.w-6 {
     margin: 0 auto;
     width: 75%;
   }
-  
-  .product-tag {
-    margin-bottom: 10px;
-  }
-  
-  .product-actions {
-    display: flex;
-    justify-content: center;
-  }
-
-.product-action {
-  margin: 0 2px; /* Reduce margin */
-  padding: 5px 10px; /* Reduce padding */
-}
 
 .btn-comprar {
   appearance: none;
