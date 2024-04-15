@@ -10,23 +10,23 @@ import { Component, OnInit} from '@angular/core';
 export class TendenciasComponent implements OnInit {
 
     products: Producto[] = [
-        {title: 'Samsung Smart Tv',
+        {title: 'Samsung Smart Tv 75 UHD',
          price: 1100999,
          image: './assets/img/producto.png'
         },
-        {title: 'Samsung Smart Tv',
+        {title: 'Samsung Smart Tv 75 UHD',
          price: 1100999,
          image: './assets/img/producto.png'
         },
-        {title: 'Samsung Smart Tv',
+        {title: 'Samsung Smart Tv 75 UHD',
          price: 1100999,
          image: './assets/img/producto.png'
         },
-        {title: 'Samsung Smart Tv',
+        {title: 'Samsung Smart Tv 75 UHD',
          price: 1100999,
          image: './assets/img/producto.png'
         },
-        {title: 'Samsung Smart Tv',
+        {title: 'Samsung Smart Tv 75 UHD',
          price: 1100999,
          image: './assets/img/producto.png'
         }
@@ -42,7 +42,7 @@ export class TendenciasComponent implements OnInit {
     this.responsiveOptions = [
       {
           breakpoint: '1199px',
-          numVisible: 1,
+          numVisible: 3,
           numScroll: 1
       },
       {

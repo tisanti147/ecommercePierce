@@ -16,6 +16,8 @@ img.w-6 {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #DC1E0F;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
   
   .carousel .p-carousel-content {
@@ -35,6 +37,7 @@ img.w-6 {
     text-align: center;
     margin: 0 auto;
     width: 75%;
+    box-shadow: #5E5E5E;
   }
 
 .btn-comprar {

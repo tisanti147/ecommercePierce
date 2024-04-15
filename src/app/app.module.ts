@@ -14,6 +14,7 @@ import { CarouselModule } from 'primeng/carousel';
 import { HttpClientModule } from '@angular/common/http';
 import { TagModule } from 'primeng/tag';
 import { ButtonModule } from 'primeng/button';
+import { CategoriasComponent } from './components/categorias/categorias.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ButtonModule } from 'primeng/button';
     FooterComponent,
     HeaderComponent,
     NavbarComponent,
-    TendenciasComponent
+    TendenciasComponent,
+    CategoriasComponent
   ],
   imports: [
     BrowserModule,
