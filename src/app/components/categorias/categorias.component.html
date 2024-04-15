@@ -1,1 +1,8 @@
-<h1>VISITÁ LAS CATEGORÍAS MÁS POPULARES</h1>
+<div class="categorias">
+    <h1>VISITÁ LAS CATEGORÍAS MÁS POPULARES</h1>
+    <mat-grid-list cols="4" rowHeight="400px" gutterSize="20px">
+      <mat-grid-tile *ngFor="let tile of tiles" [colspan]="tile.cols" [rowspan]="tile.rows" [style.backgroundImage]="'url(' + tile.image + ')'" style="background-size: cover; background-position: center;" (click)="handleTileClick(tile)">
+        <span class="title-text">{{ tile.text }}</span>
+      </mat-grid-tile>
+    </mat-grid-list>
+</div>

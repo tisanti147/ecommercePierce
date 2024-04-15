@@ -7,6 +7,7 @@
   
   #shopName {
     font-size: 1.5rem; /* Larger font size */
+    font-style: italic;
     font-weight: bold; /* Bold font */
     color: #0F1E7B; /* Text color */
   }

@@ -15,6 +15,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { TagModule } from 'primeng/tag';
 import { ButtonModule } from 'primeng/button';
 import { CategoriasComponent } from './components/categorias/categorias.component';
+import { MatGridListModule } from '@angular/material/grid-list';
 
 @NgModule({
   declarations: [
@@ -38,8 +39,8 @@ import { CategoriasComponent } from './components/categorias/categorias.componen
     CarouselModule,
     HttpClientModule,
     TagModule,
-    ButtonModule
-
+    ButtonModule,
+    MatGridListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
