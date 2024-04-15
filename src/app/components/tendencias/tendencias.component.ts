@@ -1,5 +1,4 @@
 import { Producto } from './../../interfaces/producto';
-import { ProductoService } from './../../services/producto.service';
 import { Component, OnInit} from '@angular/core';
 
 
@@ -35,7 +34,7 @@ export class TendenciasComponent implements OnInit {
 
   responsiveOptions: any[] | undefined;
 
-  constructor(private productService: ProductoService) {}
+  constructor() {}
 
   ngOnInit() {
     this.products
