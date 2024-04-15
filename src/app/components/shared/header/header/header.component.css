@@ -6,10 +6,10 @@
   }
   
   #shopName {
-    font-size: 1.5rem; /* Larger font size */
+    font-size: 32px;
     font-style: italic;
-    font-weight: bold; /* Bold font */
-    color: #0F1E7B; /* Text color */
+    font-weight: bold;
+    color: #0F1E7B;
   }
   
   #search {
@@ -19,9 +19,9 @@
   }
   
   #search input[type="text"] {
-    width: 515px; /* Adjust the width as needed */
+    width: 515px;
     padding: 8px;
-    padding-right: 30px; /* Make space for the icon */
+    padding-right: 30px;
     border: 1px solid #ced4da;
     border-radius: 4px;
     font-size: 1rem;
@@ -32,7 +32,7 @@
     right: 10px;
     top: 50%;
     transform: translateY(-50%);
-    color: #5E5E5E; /* Icon color */
+    color: #5E5E5E;
   }
   
   #user {
@@ -41,11 +41,11 @@
   }
   
   #user a {
-    color: #5E5E5E; /* Link color */
-    text-decoration: none; /* Remove underline */
-    margin-left: 20px; /* Add spacing between links */
+    color: #5E5E5E;
+    text-decoration: none;
+    margin-left: 20px;
   }
   
   #user a:hover {
-    color: #DC1E0F; /* Hover color */
+    color: #DC1E0F;
   }
