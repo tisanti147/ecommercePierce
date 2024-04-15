@@ -1,0 +1,24 @@
+@import '~@coreui/coreui/dist/css/coreui.css';
+
+.indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  list-style: none;
+  padding: 0;
+}
+
+.indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.indicators li.active {
+  background-color: #007bff;
+}

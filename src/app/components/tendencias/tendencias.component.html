@@ -1,0 +1,19 @@
+<div class="card">
+    <h1>TENDENCIAS</h1>
+    <p-carousel [value]="products" [numVisible]="5" [numScroll]="5" [circular]="true" [responsiveOptions]="responsiveOptions">
+        <ng-template let-product pTemplate="item">
+            <div class="container">
+                <div class="mb-3">
+                    <img src="{{ product.image }}" [alt]="product.title" class="w-6 shadow-2" />
+                </div>
+                <div>
+                    <h4 class="mb-1">{{ product.title }}</h4>
+                    <h6 class="price">{{ '$' + product.price }}</h6>
+                    <div class="mt-5 flex align-items-center justify-content-center gap-2">
+                    <button type="button" class="btn-comprar">Comprar</button>
+                </div>
+                </div>
+            </div>
+        </ng-template>
+    </p-carousel>
+</div>

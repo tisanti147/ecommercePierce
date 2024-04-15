@@ -1,0 +1,45 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Adjust padding as needed */
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem; /* Brand font size */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .navbar-nav {
+    list-style-type: none; /* Remove bullet points */
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-nav li {
+    margin-right: 20px; /* Adjust spacing between nav items */
+  }
+  
+  .navbar-nav li:last-child {
+    margin-right: 0; /* Remove margin from last nav item */
+  }
+  
+  .navbar-nav a {
+    color: #5E5E5E; /* Navbar link color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth color transition on hover */
+  }
+  
+  .navbar .ofertas {
+    color: #DC1E0F;
+    font-weight: bold;
+  }
+  
+  .navbar-nav a:hover {
+    color: #DC1E0F; /* Hover color */
+  }
+
+  .navbar .ofertas:hover{
+    color: #0F1E7B;
+  }
+  

@@ -1,0 +1,50 @@
+#container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  #shopName {
+    font-size: 1.5rem; /* Larger font size */
+    font-weight: bold; /* Bold font */
+    color: #0F1E7B; /* Text color */
+  }
+  
+  #search {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  #search input[type="text"] {
+    width: 515px; /* Adjust the width as needed */
+    padding: 8px;
+    padding-right: 30px; /* Make space for the icon */
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  #search i {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #5E5E5E; /* Icon color */
+  }
+  
+  #user {
+    display: flex;
+    align-items: center;
+  }
+  
+  #user a {
+    color: #5E5E5E; /* Link color */
+    text-decoration: none; /* Remove underline */
+    margin-left: 20px; /* Add spacing between links */
+  }
+  
+  #user a:hover {
+    color: #DC1E0F; /* Hover color */
+  }
