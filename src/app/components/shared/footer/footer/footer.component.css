@@ -125,3 +125,12 @@ button:active {
     height: auto;
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(159deg) brightness(102%) contrast(101%);
   }
+
+  @media (max-width: 768px) {
+    .footer {
+        flex-direction: column; /* Stack elements vertically on small screens */
+        text-align: center; /* Center text when stacked */
+        width: 100%; /* Make each div full width on mobile */
+        margin-bottom: 20px; /* Add some spacing between divs */
+    }
+}

@@ -49,3 +49,14 @@
   #user a:hover {
     color: #DC1E0F;
   }
+
+  @media (max-width: 768px) {
+    #container {
+        flex-direction: column; /* Stack elements vertically on small screens */
+        text-align: center; /* Center text when stacked */
+    }
+
+    #search {
+        margin: 10px 0; /* Adjust margin for smaller spacing */
+    }
+}
