@@ -1,0 +1,26 @@
+.container{
+    background-color: #ECECEC;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+  
+.box {
+    width: 15%;
+    padding: 20px;
+    margin: 10px auto;
+    overflow-wrap: break-word;
+  }
+
+  i{
+    size: 200%;
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }

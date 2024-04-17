@@ -2,32 +2,32 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px; /* Adjust padding as needed */
+    padding: 10px 20px;
   }
   
   .navbar-brand {
-    font-size: 1.5rem; /* Brand font size */
-    text-decoration: none; /* Remove underline */
+    font-size: 1.5rem;
+    text-decoration: none;
   }
   
   .navbar-nav {
-    list-style-type: none; /* Remove bullet points */
+    list-style-type: none;
     display: flex;
     align-items: center;
   }
   
   .navbar-nav li {
-    margin-right: 20px; /* Adjust spacing between nav items */
+    margin-right: 20px;
   }
   
   .navbar-nav li:last-child {
-    margin-right: 0; /* Remove margin from last nav item */
+    margin-right: 0;
   }
   
   .navbar-nav a {
-    color: #5E5E5E; /* Navbar link color */
-    text-decoration: none; /* Remove underline */
-    transition: color 0.3s; /* Smooth color transition on hover */
+    color: #5E5E5E;
+    text-decoration: none;
+    transition: color 0.3s;
   }
   
   .navbar .ofertas {
@@ -36,7 +36,7 @@
   }
   
   .navbar-nav a:hover {
-    color: #DC1E0F; /* Hover color */
+    color: #DC1E0F;
   }
 
   .navbar .ofertas:hover{
@@ -44,19 +44,18 @@
   }
 
   .navbar-toggler {
-    display: none; /* Hide toggle button by default */
+    display: none;
 }
 
-/* Media query for small screens */
 @media (max-width: 768px) {
   .navbar-nav {
-      display: none; /* Hide nav items on small screens */
+      display: none;
       flex-direction: column;
-      padding-top: 10px; /* Add padding between items */
+      padding-top: 10px;
   }
 
   .navbar-toggler {
-      display: block; /* Display toggle button on small screens */
+      display: block;
       background: none;
       border: none;
       cursor: pointer;

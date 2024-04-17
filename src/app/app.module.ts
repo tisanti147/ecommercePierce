@@ -17,6 +17,7 @@ import { ButtonModule } from 'primeng/button';
 import { CategoriasComponent } from './components/categorias/categorias.component';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { VendidasComponent } from './components/vendidas/vendidas.component';
+import { DetallesComponent } from './components/detalles/detalles.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { VendidasComponent } from './components/vendidas/vendidas.component';
     NavbarComponent,
     TendenciasComponent,
     CategoriasComponent,
-    VendidasComponent
+    VendidasComponent,
+    DetallesComponent
   ],
   imports: [
     BrowserModule,

@@ -52,11 +52,11 @@
 
   @media (max-width: 768px) {
     #container {
-        flex-direction: column; /* Stack elements vertically on small screens */
-        text-align: center; /* Center text when stacked */
+        flex-direction: column;
+        text-align: center;
     }
 
     #search {
-        margin: 10px 0; /* Adjust margin for smaller spacing */
+        margin: 10px 0;
     }
 }

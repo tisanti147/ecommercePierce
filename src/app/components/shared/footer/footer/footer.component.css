@@ -2,7 +2,7 @@
   display: flex;
   background-color: #000000;
   color: #ffffff;
-  align-items: center; /* Center items vertically */
+  align-items: center;
 }
 
 .tienda{
@@ -19,9 +19,9 @@
 }
 
 .contacto-container {
-  flex-grow: 1; /* Allow the container to grow and take up remaining space */
+  flex-grow: 1;
   display: flex;
-  justify-content: flex-end; /* Align items to the right */
+  justify-content: flex-end;
   align-items: flex-end;
   margin-right: 100px;
   flex-direction: column;
@@ -29,12 +29,12 @@
 
 .sucursales {
   display: flex;
-  align-items: center; /* Center items vertically */
+  align-items: center;
   margin-right: 150px;
 }
 
 .sucursales i {
-  margin-right: 15px; /* Add spacing between icon and text */
+  margin-right: 15px;
 }
 
 .info{
@@ -128,9 +128,9 @@ button:active {
 
   @media (max-width: 768px) {
     .footer {
-        flex-direction: column; /* Stack elements vertically on small screens */
-        text-align: center; /* Center text when stacked */
-        width: 100%; /* Make each div full width on mobile */
-        margin-bottom: 20px; /* Add some spacing between divs */
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 20px;
     }
 }

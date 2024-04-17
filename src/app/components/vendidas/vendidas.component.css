@@ -29,7 +29,7 @@ img.w-6 {
   }
 
   .container {
-    background-color: #ffffff; /* White background */
+    background-color: #ffffff;
     border: 1px solid #e0e0e0;
     border-radius: 8px;
     padding: 20px;
@@ -40,7 +40,7 @@ img.w-6 {
   }
 
   .container:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add shadow effect on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   }
 
 .btn-comprar {
@@ -58,8 +58,8 @@ img.w-6 {
   margin: 0;
   min-width: 0;
   outline: none;
-  padding: 10px 20px; /* Reduce padding */
-  min-height: auto; /* Remove minimum height */
+  padding: 10px 20px;
+  min-height: auto;
   text-align: center;
   text-decoration: none;
   transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
