@@ -50,7 +50,7 @@ ngOnInit() {
         numScroll: 1
     },
     {
-        breakpoint: '767px',
+        breakpoint: '450px',
         numVisible: 1,
         numScroll: 1
     }

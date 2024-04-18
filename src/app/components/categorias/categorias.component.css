@@ -23,4 +23,18 @@
     justify-content: center;
     padding: 30px;
   }
+
+  .categoriasPhone{
+    display: none;
+  }
+
+  @media (max-width: 450px) {
+    .categorias{
+      display: none;
+    }
+
+    .categoriasPhone{
+      display: block;
+    }
+  }
   

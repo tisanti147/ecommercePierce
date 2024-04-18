@@ -85,3 +85,9 @@ img.w-6 {
   box-shadow: none;
   transform: translateY(0);
 }
+
+@media (max-width: 450px) {
+  .container{
+    width: 75%;
+  }
+}

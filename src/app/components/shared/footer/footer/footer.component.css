@@ -133,4 +133,27 @@ button:active {
         width: 100%;
         margin-bottom: 20px;
     }
+
+    .info{
+      width: 100%;
+      margin: 0;
+    }
+
+    .contacto-container{
+      text-align: center;
+      justify-content: center;
+      width: 100%;
+    }
+
+    .pierce-container{
+      order: +1;
+    }
+
+    .sucursales{
+      margin-right: 80px;
+    }
+
+    .tienda{
+      order: -1;
+    }
 }
