@@ -6,10 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
-  isNavOpen: boolean = false;
 
+  sidebar: any;
+  
   toggleNav() {
-      this.isNavOpen = !this.isNavOpen;
-  }
+    this.sidebar = document.querySelector('.sidebar');
+    this.sidebar.style.display = 'flex';
+   }
 
+   closeNav(){
+    this.sidebar = document.querySelector('.sidebar');
+    this.sidebar.style.display = 'none';
+   }
 }
