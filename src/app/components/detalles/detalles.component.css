@@ -23,4 +23,8 @@
       flex-direction: column;
       justify-content: space-between;
     }
+
+    .box{
+      width: 100%;
+    }
   }

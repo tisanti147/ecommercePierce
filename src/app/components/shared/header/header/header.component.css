@@ -64,9 +64,9 @@
     }
 
     .user{
-      position: absolute; /* Position the user container absolutely */
-      top: 0; /* Align it to the top */
-      right: 0; /* Align it to the right */
+      position: absolute;
+      top: 0;
+      right: 0;
       margin-top: 20px;
       margin-right: 20px;
   }
