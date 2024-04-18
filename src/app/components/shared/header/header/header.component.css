@@ -1,24 +1,24 @@
-#container {
+.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
   }
   
-  #shopName {
+  .shopName {
     font-size: 32px;
     font-style: italic;
     font-weight: bold;
     color: #0F1E7B;
   }
   
-  #search {
+  .search {
     position: relative;
     display: flex;
     align-items: center;
   }
   
-  #search input[type="text"] {
+  .search input[type="text"] {
     width: 515px;
     padding: 8px;
     padding-right: 30px;
@@ -27,7 +27,7 @@
     font-size: 1rem;
   }
   
-  #search i {
+  .search i {
     position: absolute;
     right: 10px;
     top: 50%;
@@ -35,28 +35,39 @@
     color: #5E5E5E;
   }
   
-  #user {
+  .user {
     display: flex;
     align-items: center;
   }
   
-  #user a {
+  .user a {
     color: #5E5E5E;
     text-decoration: none;
     margin-left: 20px;
   }
   
-  #user a:hover {
+  .user a:hover {
     color: #DC1E0F;
   }
 
   @media (max-width: 768px) {
-    #container {
+    .container {
         flex-direction: column;
         text-align: center;
     }
 
-    #search {
-        margin: 10px 0;
+    .search {
+      justify-content: flex-end;
+      margin: 10px 0;
+      flex-basis: 100%;
+      order: +1;
     }
+
+    .user{
+      position: absolute; /* Position the user container absolutely */
+      top: 0; /* Align it to the top */
+      right: 0; /* Align it to the right */
+      margin-top: 20px;
+      margin-right: 20px;
+  }
 }
