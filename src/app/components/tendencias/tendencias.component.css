@@ -14,7 +14,6 @@ img.w-6 {
 
   .card {
     padding: 20px;
-    border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #DC1E0F;
     margin-top: 50px;
@@ -39,10 +38,6 @@ img.w-6 {
     margin: 0 auto;
     width: 75%;
     box-shadow: #5E5E5E;
-  }
-
-  .container:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   }
 
 .btn-comprar {

@@ -36,5 +36,9 @@
     .categoriasPhone{
       display: block;
     }
+
+    .mat-grid-tile:hover{
+      transform: none;
+    }
   }
   
